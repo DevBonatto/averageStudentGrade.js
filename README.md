@@ -13,5 +13,7 @@ Nesse desafio foi criado uma lista de **estudantes** e, cada estudante dentro de
 
 Depois de criada a lista:
 
-<p>✅ Crie uma **função** que irá calcular a média das notas de cada aluno;</p>
-<p>✅ Supondo que a média, para esse concurso é **7**, verifique **se** cada aluno obteve sucesso ou não em entrar no concurso e mostre uma mensagem na tela.</p>
+<p>✅ Crie uma função que irá calcular a média das notas de cada aluno;</p>
+<p>✅ Supondo que a média, para esse concurso é 8, verifique se cada aluno obteve sucesso ou não em entrar no concurso e mostre uma mensagem na tela.</p>
+<br>
+Clique <a href="https://devbonatto.github.io/averageStudentGrade.js/">AQUI</a> para acessar o programa na web!
