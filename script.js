@@ -25,17 +25,14 @@ function gradeCalculator(firstGrade, secondGrade){
   return ((firstGrade + secondGrade) / 2).toFixed(2)
 }
 
-let index = 0  
 for (student of students) { 
-  result = gradeCalculator(students[index].firstGrade, students[index].secondGrade)
+  result = gradeCalculator(student.firstGrade, student.secondGrade)
 
   if(result >= 8) {
-    alert(`Parabéns ${students[index].name}, você conseguiu passar no concurso! sua nota foi ${result}`)
+    alert(`Parabéns ${student.name}, você conseguiu passar no concurso! sua nota foi ${result}`)
   }else if (result >= 6){
-    alert(`Poxa ${students[index].name}, você não passou na prova do concurso, sua nota foi: ${result}, porém você está na lista de espera, caso surja uma vaga você será convidado :)`)
+    alert(`Poxa ${student.name}, você não passou na prova do concurso, sua nota foi: ${result}, porém você está na lista de espera, caso surja uma vaga você será convidado :)`)
   }else{
-    alert(`Olá ${students[index].name}, infelizmente você não passou na prova do concurso, sua nota foi: ${result}, estude mais para a próxima!`)
+    alert(`Olá ${student.name}, infelizmente você não passou na prova do concurso, sua nota foi: ${result}, estude mais para a próxima!`)
   }
-
-  index++
 }
